@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.card{
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin: 10px 40px;
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 15px 3px #000000; 
+    box-shadow: 0px 0px 15px 3px #000000;
+}
+
+.onecard{
+    width: 50%;
+}
+.card img{
+    width: 50%;
+}
+.filter{
+    margin: 20px auto;
+    text-align: center;
+}
+.filter input{
+    text-align: center;
+    font-size: 20px;
+    width: 600px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
